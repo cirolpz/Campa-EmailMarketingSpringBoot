@@ -26,7 +26,6 @@ public class ClienteService implements IClienteService {
     @Override
     public void save(Cliente cliente) {
         repository.save(cliente);
-
     }
     @Override
     public List<Cliente> buscar(@RequestBody ClienteSearchCriteria searchCriteria)
@@ -35,7 +34,6 @@ public class ClienteService implements IClienteService {
         String email= searchCriteria.getEmail();
         String telefono= searchCriteria.getTelefono();
        return repository.buscarCliente( nombre,  email,  telefono);
-
     }
 
 

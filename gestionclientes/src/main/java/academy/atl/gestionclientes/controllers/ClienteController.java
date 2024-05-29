@@ -18,7 +18,7 @@ public class ClienteController {
     {
         return service.getById(id);
     }
-    @GetMapping("api/cliente/{id}")
+    @DeleteMapping("api/cliente/{id}")
     public void removeById(@PathVariable("id") Integer id)
     {
         service.removeById(id);
@@ -28,7 +28,7 @@ public class ClienteController {
     {
         service.save(cliente);
     }
-    @PostMapping("api/cliente/{id}")
+    @PutMapping("api/cliente/{id}")
     public void update(@PathVariable("id") Integer id, @RequestBody Cliente cliente)
     {
         service.save(cliente);
