@@ -12,6 +12,9 @@ import java.util.List;
 @Service
 public class ClienteService implements IClienteService {
     @Autowired
+    private IEmailService emailService;
+
+    @Autowired
     private IClienteRepository repository;
 @Override
     public Cliente getById(Integer id){
@@ -26,6 +29,7 @@ public class ClienteService implements IClienteService {
     @Override
     public void save(Cliente cliente) {
         repository.save(cliente);
+        emailService.sendEmail("....",cliente.getEmail());
     }
     @Override
     public List<Cliente> buscar(@RequestBody ClienteSearchCriteria searchCriteria)
