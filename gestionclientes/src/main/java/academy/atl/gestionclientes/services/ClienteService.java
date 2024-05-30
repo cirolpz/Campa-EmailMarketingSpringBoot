@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -29,7 +30,12 @@ public class ClienteService implements IClienteService {
     @Override
     public void save(Cliente cliente) {
         repository.save(cliente);
-        emailService.sendEmail("....",cliente.getEmail());
+        String asunto="Su cuenta se creo correctamente";
+        List<String>to = new ArrayList<>();
+        to.add(cliente.getEmail());
+        String body="Bienvenido a Java mail";
+
+        emailService.enviarEmailBienvenida(asunto,to,cliente.getNombre());
     }
     @Override
     public List<Cliente> buscar(@RequestBody ClienteSearchCriteria searchCriteria)

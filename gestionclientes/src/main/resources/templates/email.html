@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo Electrónico</title>
+    <style>
+        /* Estilos para asegurar la compatibilidad en diferentes clientes de correo */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .footer {
+            margin-top: 20px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>¡Hola <span th:text="${nombre}"></span>}!</h1>
+    <p>Este es un ejemplo de plantilla de correo electrónico.</p>
+    <p>Puedes poner tu contenido aquí.</p>
+    <a href="#" class="button">Botón de Ejemplo</a>
+</div>
+<div class="footer">
+    <p>Este es el pie de página del correo electrónico.</p>
+</div>
+</body>
+</html>
