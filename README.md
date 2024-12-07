@@ -17,7 +17,7 @@ Campa-EmailMarketingSpringBoot es una aplicación basada en **Spring Boot** dise
 ## 🛠️ **Tecnologías Utilizadas**
 
 - **Backend:** Spring Boot.
-- **Frontend:** HTML, CSS, SCSS, JavaScript.
+- **Frontend:** HTML, CSS, SCSS, JavaScript. Utilice principalmente el template de SB Admin 2.
 - **Motor de plantillas:** Thymeleaf.
 - **Diseño responsivo:** Bootstrap.
 
