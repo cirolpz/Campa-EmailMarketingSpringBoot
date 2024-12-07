@@ -35,16 +35,26 @@ git clone https://github.com/cirolpz/Campa-EmailMarketingSpringBoot.git
 ## Acceder a la aplicación
 - Abre tu navegador y dirígete a:
 - http://localhost:8080
----
+```
+
 ## 📖 Uso
-1 Crear una Campaña
-2 Ve a la sección Campañas en la aplicación.
-3 Haz clic en Crear Nueva Campaña.
-4 Completa los detalles de la campaña y selecciona una plantilla.
-5 Guarda la campaña y envíala a los destinatarios.
+
+### Crear una Campaña
+
+1. Ve a la sección **Campañas** en la aplicación.  
+2. Haz clic en **Crear Nueva Campaña**.  
+3. Completa los detalles de la campaña y selecciona una plantilla.  
+4. Guarda la campaña y envíala a los destinatarios.  
+
 ### Analizar el Rendimiento
-1 Navega a la sección Reportes.
-2 Selecciona la campaña que deseas analizar.
+
+1. Navega a la sección **Reportes**.  
+2. Selecciona la campaña que deseas analizar.  
+3. Visualiza métricas como:  
+   - **Tasa de apertura.**  
+   - **Clics en los enlaces.**  
+   - **Conversiones.**
+
 3 Visualiza métricas como:
 - Tasa de apertura.
 - Clics en los enlaces.
