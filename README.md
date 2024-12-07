@@ -26,7 +26,7 @@ Campa-EmailMarketingSpringBoot es una aplicación basada en **Spring Boot** dise
 ## 🚀 **Instalación y Configuración**
 
 ### Clona el repositorio:
-```bash
+```
 git clone https://github.com/cirolpz/Campa-EmailMarketingSpringBoot.git
 ## Navega al directorio del proyecto:
 -Compilar y ejecutar la aplicación
@@ -35,7 +35,7 @@ git clone https://github.com/cirolpz/Campa-EmailMarketingSpringBoot.git
 ## Acceder a la aplicación
 - Abre tu navegador y dirígete a:
 - http://localhost:8080
-
+---
 ## 📖 Uso
 1 Crear una Campaña
 2 Ve a la sección Campañas en la aplicación.
